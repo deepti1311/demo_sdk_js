@@ -1,3 +1,27 @@
 #b1{
-  margin: auto;
+  margin: 50px 250px;
+  width: 100px;
+  background-color: gray;
+  color: whitesmoke;
+  border-radius: 50%;
+  border-color: white;
+  font-size: large;
+}
+#b1:hover {background-color:rgb(144, 185, 81)}
+#body{
+  background-color:powderblue;
+}
+
+#text{
+  color: white;
+  
+  text-align: center;
+}
+#container{
+  font-size: 50px;
+
+  padding:70px 150px 200px 145px;
+  margin: 20px 500px;
+  box-sizing: border-box;
+  background-color:white;
 }

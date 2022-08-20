@@ -5,7 +5,7 @@ function iFrame(){
     let iframe = document.createElement('iframe');
     iframe.src= "payDemo.html";
     iframe.id="iframe_pay"
-    iframe.setAttribute("style","background-color:aquamarine; height:100%;width:40%; text-align: center;");
+    iframe.setAttribute("style","background-color: rgb(157, 157, 236); height:100%;width:120%; text-align: center;");
 
     if( document.getElementById("demo").childNodes.length < 1){
         document.getElementById("demo").appendChild(iframe);
